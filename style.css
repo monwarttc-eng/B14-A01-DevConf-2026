@@ -80,3 +80,43 @@ img {
 .banner-content button {
   cursor: pointer;
 }
+
+/* speakers style*/
+.speaker-section {
+  margin: 60px 0;
+}
+.speaker-section h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.speakers {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+.speaker {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px 8px 0 0;
+}
+.speaker img {
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 8px;
+}
+
+.speaker-content {
+  padding: 12px;
+}
+.speaker-content h4 {
+  font-size: 12px;
+  color: #1d4ed8;
+}
+.speaker-content h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.speaker-content p {
+  font-size: 14px;
+  color: #575757;
+}
