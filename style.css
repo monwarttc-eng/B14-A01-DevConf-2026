@@ -243,3 +243,58 @@ img {
 .newsletter-form button:hover {
   background: #000;
 }
+/* footer */
+
+.footer-top {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.footer-top img {
+  width: 120px;
+}
+
+.divider {
+  width: 1px;
+  height: 60px;
+  background: #dcdcdc;
+}
+
+.social-icon {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon a {
+  width: 42px;
+  height: 42px;
+  background: #ffffff;
+  color: #333;
+  border-radius: 50%;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 18px;
+
+  transition: all 0.3s ease;
+}
+
+.social-icon a:hover {
+  background: #1d4ed8;
+  color: #fff;
+}
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+}
+.social-icon span {
+  font-size: 24px;
+  color: #0d6efd;
+  cursor: pointer;
+}
