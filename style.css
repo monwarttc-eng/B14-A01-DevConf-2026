@@ -185,3 +185,61 @@ img {
   background-color: #1d4ed8;
   color: #fff;
 }
+
+/* newsletter section style */
+.newsletter {
+  margin: 48px 20px 0 0;
+  color: #fff;
+  text-align: center;
+}
+.bg {
+  background: #1d4ed8;
+  padding: 48px 0;
+}
+.newsletter-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.newsletter h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.newsletter p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input {
+  width: 350px;
+  max-width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+.newsletter-form button {
+  padding: 15px 30px;
+  border: none;
+  background: #212529;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newsletter-form button:hover {
+  background: #000;
+}
