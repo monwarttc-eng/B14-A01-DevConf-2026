@@ -120,3 +120,68 @@ img {
   font-size: 14px;
   color: #575757;
 }
+
+/* prices-section style */
+.card-header {
+  text-align: center;
+}
+.card-header h2 {
+  font-size: 48px;
+  color: #0d1b2a;
+}
+.card-header p {
+  font-size: 16px;
+  color: #575757;
+  margin-bottom: 48px;
+}
+.card-area {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.card {
+  align-items: center;
+  border: 1px solid #e5e7eb;
+  padding: 32px;
+}
+.card-head {
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 20px;
+}
+.card-head p {
+  font-size: 13px;
+  color: #888888;
+}
+.card-head h4 {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  color: #888888;
+}
+.card-head h3 {
+  font-size: 44px;
+  color: #0d1b2a;
+}
+.card-body {
+  margin-bottom: 20px;
+}
+.card-body ul li {
+  color: #333333;
+  font-size: 14px;
+  line-height: 32px;
+}
+.card-body ul li::marker {
+  color: blue;
+  font-size: 24px;
+}
+.card-footer button {
+  width: 100%;
+  border: 1px solid #1d4ed8;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: transparent;
+}
+.card-footer button.active {
+  background-color: #1d4ed8;
+  color: #fff;
+}
